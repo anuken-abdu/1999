@@ -88,8 +88,8 @@
   .btn.ghost:hover svg path{fill:#fff;}
 
   /* ---------- HERO ---------- */
-  .hero{position:relative;height:100svh;min-height:600px;background:#0d0d0d;}
-  .hero img{position:absolute;inset:0;}
+  .hero{position:relative;height:100svh;min-height:600px;background:linear-gradient(180deg,#d2d2d2 0%,#a6a6a6 20%,#1d1d1d 56%,#0d0d0d 100%);}
+  .hero img{position:absolute;inset:0;object-fit:contain;object-position:center;}
   .hero::after{content:"";position:absolute;inset:0;background:linear-gradient(180deg,rgba(0,0,0,.45) 0%,rgba(0,0,0,0) 26%,rgba(0,0,0,0) 60%,rgba(0,0,0,.35) 100%);pointer-events:none;}
   .hero .down{position:absolute;left:50%;bottom:30px;transform:translateX(-50%);z-index:3;width:42px;height:42px;border:1px solid rgba(255,255,255,.6);border-radius:50%;display:flex;align-items:center;justify-content:center;animation:bob 2s ease-in-out infinite;}
   .hero .down svg{width:18px;height:18px;stroke:#fff;}
